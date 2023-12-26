@@ -1,0 +1,99 @@
+# South Wales MTB
+
+*** Mock Up Images ***
+
+
+
+## Strategy
+
+South Wales MTB is a club website that aims to help bring MTB riders from across the valleys together and keep them motivated to ride their bikes. It aims to grow the local mtb community, providing a safe way for mountain bikers to meet new people, and get involved with regular club rides. 
+
+The main goals for a MVP are:
+
+* Provide info about the club - Welcoming, friendly, anyone welcome
+
+* Attract new members and grow the community - One open ride per month
+
+* List a directory of current riding locations the club use - This way riders can be 
+
+-------------------------------------------------------------------------------------------
+
+## Scope
+
+As a first time user I want:
+
+* To see if this club is for me - Where they ride, skill level required, equipment required
+
+* To know when the club rides
+
+* Sign up
+
+* Contact the club
+
+As a returning user/member I want: 
+
+* To know when we are riding
+
+* Sign up or login and access my account
+
+* Use the shop
+
+* Contact the club
+
+--------------------------------------------------------------------------------------------
+
+## Structure
+
+### Home / Landing Page
+
+### Locations
+
+### Blog
+
+### Sign up / Login
+
+--------------------------------------------------------------------------------------------
+
+
+# Skeleton
+
+
+--------------------------------------------------------------------------------------------
+
+
+#Surface
+
+
+--------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+Provide a welcoming, safe and judgement free way of getting into and/or developing mtb skills
+
+Attract people to the sport of mountain biking and grow the local mtb community
+
+Attract exisiting mtb'ers to the club
+
+Grow the mtb comminity in South Wales
+
+Provide opportunity to members for mtb holidays etc.
+
+Organise group rides
+
+Help riders find new spots to ride
+
+Be a free member - Access to local ride diary and merch shop. Also lower rate discount with participating partners.
+
+Be a paid member - Access to free member stuff plus special merch items in shop and option to go on club holidays. Also access to higher rate discount with participating partners.
+
+
+The purpose of South Wales MTB is to provide information about the club to prospective and existing members. 
+
+Non members will be able to see what the club is about, skill levels required, how to get involved with open rides, discover riding locations in and around South Wales and sign up to become a member.
+
+Members will have access to all organised rides.
