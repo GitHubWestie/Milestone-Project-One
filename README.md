@@ -6,7 +6,7 @@
 
 South Wales MTB is a club website that aims to help bring MTB riders from across the valleys together, keeping them motivated to ride their bikes and enjoy nature. It aims to grow the local mtb community, providing a safe way for mountain bikers to meet new people and get involved with regular club rides. 
 
-The main goals for a MVP are:
+**The main goals for a MVP are:**
 
 * Provide info about the club, promote the club ethos and attract new members
 
@@ -18,11 +18,12 @@ The main goals for a MVP are:
 
 * Provide a means to sign up to be kept in the loop about club activity. Initially this will be via email.
 
-## **Scope - User Experience**
+
+## **User Experience - Scope**
 
 **As a first time user I want:**
 
-* To see if this club is for me - Where they ride, skill level required, equipment required
+* To see if this club is for me - Club ethos, where they ride, skill level required, equipment required
 
 * To know when the club rides
 
@@ -87,10 +88,6 @@ A list of riding locations used by the club, presented as cards. Each card gives
 
 * Ascertain what skill/fitness level will be required for certain loctions through trail information e.g Trail grading, course length etc.
 
-### **Blog**
-
-A simple blog for detailing previous events involving the club such as club rides, trips away, races etc. Useful for potential club members to see what the club gets up to and encourage them to get involved. 
-
 #### Page Goals
 
 * Attract new members
@@ -125,5 +122,37 @@ A sign up screen where users can submit their email address to receive club upda
 
 ## **Skeleton**
 
+### **Desktop**
+![Desktop](assets/Wireframes/Desktop.png)
+
+### **Tablet**
+![Tablet](assets/Wireframes/Tablet.png)
+
+### **Mobile**
+![Mobile](assets/Wireframes/Mobile.png)
+
+### **Features**
+
+### **Features left to be implemented**
+
+
+#### **Blog**
+
+A simple blog for detailing previous events involving the club such as club rides, trips away, races etc. Useful for potential club members to see what the club gets up to and encourage them to get involved. 
 
 ## **Surface**
+
+## **Testing**
+HTML and CSS Validators
+
+## **Deployment**
+
+## **Credits**
+
+### **Media**
+
+* Home page hero image by [Marita Kavelashvili](https://unsplash.com/@maritaextrabold)
+
+    Downloaded from [Unsplash](https://unsplash.com/photos/aerial-photo-of-green-trees-ugnrXk1129g)
+
+
