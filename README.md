@@ -155,4 +155,10 @@ HTML and CSS Validators
 
     Downloaded from [Unsplash](https://unsplash.com/photos/aerial-photo-of-green-trees-ugnrXk1129g)
 
+* Discover image by [Red Zeppelin](https://unsplash.com/@redzeppelin)
 
+* Coaching image used with kind permission of [Bike Park Wales](https://www.bikeparkwales.com/)
+
+* Travel image by [Nick Rickert](https://unsplash.com/@nick_rickert)
+
+    Downloaded from [Unsplash](https://unsplash.com/photos/aerial-photo-of-green-trees-ugnrXk1129g)

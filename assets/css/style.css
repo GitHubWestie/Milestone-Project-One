@@ -1,0 +1,252 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    font-family: 'roboto', sans-serif;
+    font-size: 1rem;
+}
+
+
+/* Landing Screen */
+
+.screen-container {
+    height: 100vh;
+}
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    z-index: 1;
+}
+
+.logo {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 4rem;
+    padding: .75rem 1.25rem;
+    font-weight: bold;
+    line-height: 5rem;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-item {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 2rem;
+    list-style: none;
+    padding-right: 3rem;
+}
+
+.desktop-icon {
+    color: #2f4f4f;
+    padding-right: 1rem;
+}
+
+/* Mobile Nav */
+
+.mobile-navbar {
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    z-index: 1;
+}
+
+.mobile-nav-list {
+    display: flex;
+}
+
+.mobile-nav-item {
+    font-size: 1.5rem;
+    list-style: none;
+    padding-right: 1.75rem;
+}
+
+.mobile-icon {
+    color: #2f4f4f;
+}
+
+.mobile-navbar a {
+    display: flex;
+    text-decoration: none;
+    color: darkslategrey;
+    align-items: center;
+}
+
+
+/* Hero Section */
+
+.hero-image {
+    display: flex;
+    background-image: url(../Images/forest.webp);
+    height: 100%;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+}
+
+.hero-text {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 5em;
+    font-weight: 400;
+    background-color: darkgray;
+    opacity: 60%;
+    animation: fadeIn 7s;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0%}
+    100% {opacity: 60%;}
+}
+
+
+/* Why Ride With Us */
+
+.why-us {
+    padding: 2.5rem 2rem 3.5rem 2rem;
+}
+
+.why-us h2 {
+    font-family: 'Amatic SC', sans-serif;
+    padding-bottom: 0.25rem;
+    color: darkslategrey;
+}
+
+.who-are-we {
+    padding-bottom: 2em;
+}
+
+.reasons-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap: 2rem 5rem;
+    padding: 0 2rem 2rem;
+}
+
+.reason {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 600px;
+}
+
+.reason-heading {
+    font-size: 2.5rem;
+    font-family: 'Amatic SC', sans-serif;
+    color: #2f4f4f;
+    padding-bottom: 0.25rem;
+}
+
+.reason-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 0 2em;
+}
+
+.reason-text {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.discover-img {
+    background-image: url(../images/discover.webp);
+}
+
+.learn-img {
+    background-image: url(../images/coach.webp);
+}
+
+.travel-img {
+    background-image: url(../images/travel.webp);
+}
+
+.connect-img {
+    background-image: url(../images/connect.webp);
+}
+
+.img-placeholder {
+    min-width: 300px;
+    height: 300px;
+    background-color: rgb(29, 29, 29);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #2f4f4f;
+    box-shadow: -3px 3px 6px 0px #2f4f4f;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    padding: 1em;
+    border-top: 1px solid black;
+}
+
+
+/* Media Queries */
+
+@media screen and (min-width: 768px) {
+    .mobile-navbar {
+        display: none;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .logo {
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar {
+        display: none;
+    }
+
+    .why-us {
+        padding: 2.5rem 1rem 3.5rem 1rem;
+    }
+    .reasons-container {
+        padding: 0 1rem 2rem;
+    }
+
+    .img-placeholder {
+        display: none;
+    }
+}
