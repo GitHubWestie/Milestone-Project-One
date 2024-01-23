@@ -4,111 +4,130 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>South Wales MTB</title>
-    <link rel="stylesheet" href="Assets/CSS/style.css">
-    <script src="https://kit.fontawesome.com/0286276466.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/x-icon" href="Assets/Images/favicon.ico" />
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
 <body>
+    <header>
+        <nav>
+            <a href="index.html">
+                <!-- Clipart by Mert Gör on OpenClipArt -->
+                <img class="nav-logo" src="Assets/Images/color-draig.webp" alt="Dragon chasing its own tail clipart" width="100px" height="100px">
+                <h1 class="desktop-nav logo-text">South<br>Wales MTB</h1>
+            </a>
 
-    <div class="screen-container">
-        <!-- Large screen navbar -->
-        <div class="navbar">
-            <a class="logo" href="index.html">South Wales MTB</a>
-            <ul class="nav-list">
-                <li class="nav-item">
-                    <a href="locations.html"><i class="desktop-icon fa-solid fa-location-dot"></i>Locations</a>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <i class='mobile-nav bx bx-home' ></i>
+                        <span class="desktop-nav desktop-links">Home</span>
+                    </a>
                 </li>
-                <li class="nav-item">
-                    <a href="signup.html"><i class="desktop-icon fa-solid fa-user-plus"></i>Sign Up</a>
+                <li>
+                    <a href="locations.html">
+                        <i class='mobile-nav bx bx-map'></i>
+                        <span class="desktop-nav desktop-links">Locations</span>
+                    </a>
                 </li>
-            </ul>  
-        </div>
-
-        <!-- Mobile Nav -->
-        <div class="mobile-navbar">
-            <a class="logo" href="index.html">South Wales MTB</a>
-            <ul class="mobile-nav-list">
-                <li class="mobile-nav-item">
-                    <a href="locations.html"><i class="mobile-icon fa-solid fa-location-dot"></i></a>
-                </li>
-                <li class="mobile-nav-item">
-                    <a href="signup.html"><i class="mobile-icon fa-solid fa-user-plus"></i></a>
+                <li>
+                    <a href="joinus.html">
+                        <i class='mobile-nav bx bx-user-plus' ></i>
+                        <span class="desktop-nav desktop-links join-cta">Join Us</span>
+                    </a>
                 </li>
             </ul>
-        </div>
+        </nav>
+    </header>
 
-        <div class="hero-image">
-            <div class="hero-text">
-                Let's Ride!
-            </div>
-        </div>
+    <div class="hero">
+        <h2>Ride</h2>
+        <h5>in<br>the valleys</h5>
     </div>
 
-    <section class="why-us">
-        <h2>Why Ride With Us?</h2>
+    <article class="intro">
+        <h2><span>Why</span> Ride With Us?</h2>
         <p>
-            We are the biggest and best MTB club in South Wales. We meet regularly, usually once a week, and ride for fun, keeping it fresh by riding different spots as much as possible. We're long established too, so have a great relationship with the trail faeries, bike parks, shops and other businesses. Some will even offer a discount for goods or services when presenting a valid membership card. 
+            We are the biggest and best MTB club in South Wales. We meet regularly, usually once a week, and ride for fun, keeping it fresh by riding different spots as much as possible. We're long established too, so have a great relationship with the trail faeries, bike parks, shops and other local businesses. Some will even offer a discount for goods or services when presenting a valid membership. 
+            <br>
+            <br>
+            If that's not enough, check out some of the great reasons to join below!
         </p>
-    </section>
+    </article>
 
-    <section class="reasons-container">
-        <div class="reason">
-            <h3 class="reason-heading">Discover
-            </h3>
-            <div class="reason-body">
-                <div class="reason-text">
-                    <p>
-                        Variety is the spice of life, right? Thanks to our members we are always finding new trails and locations to ride. Trail builders are a secretive bunch so having them in the club gives us inside knowledge on the freshest tracks in the valleys. On top of that, we have also worked closely with local councils to establish sanctioned dig sites where we can build tracks without having to worry that they will be destroyed.
-                    </p>
-                </div>
-                <div class="img-placeholder discover-img"></div>
+    <div class="reason-wrapper">
+        <article class="reason-card">
+            <h3><i class='reason-icon bx bx-link'></i>Connect</h3>
+            <div class="reason-card-body">
+                <p>
+                    Friends. The more the merrier. Connecting with like minded people and sharing some stoke, blowing off some steam, hitting that jump or drop that's just too intimidating to hit by yourself or just for the chinwag. In this club you'll meet all sorts. Not just our members but our connections with shops etc. It's not what you know, it's who.
+                </p>
+                <div class="rsn-txt-bg"></div>
+                <figure>
+                    <img src="Assets/Images/connect.webp" alt="">
+                </figure>
             </div>
-        </div>
+        </article>
 
-        <div class="reason">
-            <h3 class="reason-heading">Learn
-            </h3>
-            <div class="reason-body">
-                <div class="reason-text">
-                    <p>
-                        Variety is the spice of life, right? Thanks to our members we are always finding new trails and locations to ride. Trail builders are a secretive bunch so having them in the club gives us inside knowledge on the freshest tracks in the valleys. On top of that, we have also worked closely with local councils to establish sanctioned dig sites where we can build tracks without having to worry that they will be destroyed.
-                    </p>
-                </div>
-                <div class="img-placeholder learn-img"></div>
+        <article class="reason-card">
+            <h3><i class='reason-icon bx bx-bulb'></i>Learn</i></h3>
+            <div class="reason-card-body">
+                <p>
+                    Every ride is an opportunity to pick up some knowledge. Our club is made up of a huge range of riders and some of our members are even professional MTB coaches. As a member you can enjoy access to private and group coaching sessions at a discounted rate from a variety of local coaches.
+                </p>
+                <div class="rsn-txt-bg"></div>
+                <figure>
+                    <img src="Assets/Images/coach.webp" alt="">
+                </figure>
             </div>
-        </div>
+        </article>
 
-        <div class="reason">
-            <h3 class="reason-heading">Travel
-            </h3>
-            <div class="reason-body">
-                <div class="reason-text">
-                    <p>
-                        Variety is the spice of life, right? Thanks to our members we are always finding new trails and locations to ride. Trail builders are a secretive bunch so having them in the club gives us inside knowledge on the freshest tracks in the valleys. On top of that, we have also worked closely with local councils to establish sanctioned dig sites where we can build tracks without having to worry that they will be destroyed.
-                    </p>
-                </div>
-                <div class="img-placeholder travel-img"></div>
+        <article class="reason-card">
+            <h3><i class='reason-icon bx bxs-plane-alt' ></i>Travel</h3>
+            <div class="reason-card-body">
+                <p>
+                    Easily one of the favourites of members is the travel. We aim to get in at least one summer and one winter trip each year and have visited Morzine, Madeira, Whistler and New Zealand in previous years.
+                </p>
+                <div class="rsn-txt-bg"></div>
+                <figure>
+                    <img src="Assets/Images/travel.webp" alt="">
+                </figure>
             </div>
-        </div>
+        </article>
 
-        <div class="reason">
-            <h3 class="reason-heading">Connect
-            </h3>
-            <div class="reason-body">
-                <div class="reason-text">
-                    <p>
-                        Variety is the spice of life, right? Thanks to our members we are always finding new trails and locations to ride. Trail builders are a secretive bunch so having them in the club gives us inside knowledge on the freshest tracks in the valleys. On top of that, we have also worked closely with local councils to establish sanctioned dig sites where we can build tracks without having to worry that they will be destroyed.
-                    </p>
-                </div>
-                <div class="img-placeholder connect-img"></div>
+        <article class="reason-card">
+            <h3><i class='reason-icon bx bx-search-alt' ></i>Discover</h3>
+            <div class="reason-card-body">
+                <p>
+                    Variety is the spice of life, right? Thanks to our members we are always finding new trails and locations to ride. Trail builders are a secretive bunch so having them in the club gives us inside knowledge on the freshest tracks in the valleys. On top of that, we have also worked closely with local councils to establish sanctioned dig sites where we can build tracks without having to worry that they will be destroyed.
+                </p>
+                <div class="rsn-txt-bg"></div>
+                <figure>
+                    <img src="Assets/Images/discover.webp" alt="">
+                </figure>
             </div>
-        </div>
-    </section>
+        </article>
+    </div>
+
+    <div class="ready">
+        <h2>Ready</h2>
+        <h6>for a shreddy?</h6>
+        <span class="join-us-btn">Join Us</span>
+    </div>
 
     <footer>
-        <a href=mailto:info@swmtb.com><i class="fa-regular fa-envelope"></i></a>
-        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
-        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+        <a class="footer-link" href="https://www.facebook.com/" target="_blank">
+            <i class='mobile-footer bx bxl-facebook-square bx-md'></i>
+            <span class="desktop-footer">Facebook</span>
+        </a>
+        <a class="footer-link" href="https://www.instagram.com/" target="_blank">
+            <i class='mobile-footer bx bxl-instagram bx-md' ></i>
+            <span class="desktop-footer">Instagram</span>
+        </a>
+        <a class="footer-link" href="mailto:">
+            <i class='mobile-footer bx bx-envelope bx-md' ></i>
+            <span class="desktop-footer">Email</span>
+        </a>
     </footer>
 </body>
 </html>
