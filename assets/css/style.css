@@ -10,7 +10,6 @@
     border: none;
     color: black;
     font-family: 'Roboto', 'Arial Narrow', Arial, sans-serif;
-    box-sizing: border-box;
 }
 
 h1 {
@@ -25,6 +24,11 @@ h3 {
     font-size: 2rem;
 }
 
+a:hover {
+    opacity: 0.8;
+    transition: ease-in-out;
+    transition-duration: 0.8s;
+}
 
 /* Navigation */
 nav {
@@ -35,6 +39,11 @@ nav {
     justify-content: space-between;
     background-color: #3c3e42;
     z-index: 10;
+}
+
+.nav-brand {
+    display: flex;
+    align-items: center;
 }
 
 .nav-logo {
@@ -50,15 +59,15 @@ nav {
 .logo-text {
     font-size: 3rem;
     color: #dbeeff;
-    padding-left: 8rem;
+    /* padding-left: 7rem; */
     line-height: 0.9;
-    padding-top: .4rem;
+    /* padding-top: 0.7rem; */
 }
 
 .desktop-links {
     color: #dbeeff;
     font-size: 1.25rem;
-    padding-right: 2rem;
+    margin-right: 2rem;
 }
 
 .join-cta {
@@ -81,15 +90,34 @@ nav > ul {
     padding-right: 1rem;
 }
 
+.mobile-active {
+    text-decoration: underline;
+}
+
+.active {
+    border-bottom: 1px solid #dbeeff;
+}
+
 /* Hero */
+
 .hero {
     display: grid;
     grid-template: repeat(3, 1fr) / 12rem 1fr;
     height: 100dvh;
-    background-image: url(../Images/forest.webp);
     background-position: left;
     background-size: cover;
     align-items: end;
+}
+
+.index-lg-image {
+    /* Photo by Marita Kavelashvili on unsplash.com */
+    background-image: url(../images/forest.webp);
+}
+
+.location-lg-image {
+    /* Photo by Tim Foster on unsplash.com */
+    background-image: url(../images/locations-lg-img.webp);
+    background-position: center;
 }
 
 .hero > h2 {
@@ -229,7 +257,7 @@ nav > ul {
     font-size: 2rem;
     font-weight: 500;
     background-color: #204b57;
-    color: #c5d0dd;
+    color: #dbeeff;
     border: 1px solid #3c3e42;
     border-radius: 10px;
     padding: 0.5rem;
@@ -282,49 +310,106 @@ nav > ul {
 /* Join Us */
 .form-background-container {
     height: 100svh;
-    width: 100vw;
+    width: 100%;
     background-image: url(../images/signup.webp);
     background-size: cover;
     background-position: right;
 }
 
-.form-wrapper {
+.form-container {
+    position: relative;
     height: 100%;
     display: flex;
-    /* grid-template: 110px auto / repeat(3, 1fr); */
+    flex-direction: row;
     align-items: center;
-    align-content: center;
-    justify-items: center;
     justify-content: center;
+    top: 60px;
 }
 
-.form-container {
+.join-us-form {
+    flex-basis: 300px;
     display: flex;
-    background-color: #3c3e42;
     flex-direction: column;
     align-items: center;
-    width: 300px;
-    border-radius: 20px;
+    background-color: #3c3e4250;
+    backdrop-filter: blur(2px);
+    border: 1px solid #3c3e42;
+    border-radius: 2rem;
 }
 
-.join-us-form {width: 90%;}
+.form-logo { 
+    margin: 1.5rem 0 0.5rem; 
+    padding: 0.5rem;   
+    background-color: #204b57; 
+    border: 1px solid #dbeeff; 
+    border-radius: 50%;
+    }
 
-.form-logo {margin: 1rem;}
+.form-label,
+.form-input,
+.form-submit {
+    width: 95%;
+    box-sizing: border-box;
+    margin: 0.25rem;
+    color: #dbeeff;
+}
+
+.form-label {
+    padding: 0.5rem 0.5rem 0rem;
+}
 
 .form-input {
-    display: block;
-    width: 100%;
-    margin: 0 auto 1rem;
-    padding: 1rem;
-    border-radius: 50px;
+    padding: 0.75rem;
+    background: #3c3e42;
+    color: #dbeeff;
+    outline: none;
+    border: 1px solid #204b57;
+    border-radius: 2rem;
 }
 
-input:focus {
-    border: 1px solid #b000d7;
+.form-input:focus,
+.form-input:focus-visible {
+    border: 1px solid #dbeeff;
+}
+
+.form-input::placeholder {
+    color:#dbeeff;
+}
+
+/* Modified Code from CSS Tricks to stop autofill changing form input background colour */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid #204b57;
+  -webkit-text-fill-color: #dbeeff;
+  -webkit-box-shadow: 0 0 0px 1000px #3c3e42 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.form-submit {
+    padding: 0.5rem;
+    border: 1px solid #dbeeff;
+    border-radius: 2rem;
+    margin-bottom: 0.5rem;
+    background-color: #3c3e42;
+    font-size: 1.5rem;
+}
+
+.form-submit:hover {
+    background-color: #204b57;
+    transition: ease-in-out;
+    transition-duration: 0.4s;
 }
 
 /* Footer */
 footer {
+    width: 100%;
     display: grid;
     grid-template: auto / repeat(3, 1fr);
     justify-items: center;
@@ -371,7 +456,9 @@ footer > a {
     .nav-logo {
         position: static;
         float: left;
-        padding-left: 0.5rem;
+        /* padding-left: 0.5rem; */
+        width: 80px;
+        height: auto;
     }
 }
 
