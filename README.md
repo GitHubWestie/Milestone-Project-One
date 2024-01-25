@@ -142,6 +142,25 @@ A simple blog for detailing previous events involving the club such as club ride
 
 ## **Surface**
 
+### **Navbar**
+![Mobile-navbar](assets/screenshots/mobile-nav-bar.png)
+
+![Navbar](assets/screenshots/Nav-bar.png)
+
+Each page is headed up by the navbar for simple and intuitive navigation. Small screens up to 768px utilise the smaller mobile menu. This menu eliminates cramping in the nav bar by reducing the logo down to the club icon (which floats slightly outside of the navbar to maintain a legible size) and replaces the text links with easily recognisable icons.
+
+Larger screens use the full size navbar with full size logo, text links and a CTA styled like a button for the 'join us' link. The logo is also a link to the homepage and all links feature a subtle hover state to let the user know they are an interactive feature.
+
+Both versions of the navbar are sticky to keep navigation simple, convenient and accessible at all times.
+
+### **Hero Images**
+
+Each page features a hero image chosen to reflect the character of riding in the valleys of South Wales, elicit an emotional response and create a quick connection with users.
+
+![Homepage-hero](assets/screenshots/index-hero.png)
+
+The homepage hero image is chosen as it is such a typical and iconic sight in the valleys of South Wales. An alluring valley densely packed with forest hiding trails and a low mist, affectionately named 'Dragons Breath'. This image was also chosen as it has a calming tone.
+
 ## **Testing**
 HTML and CSS Validators
 
