@@ -1,6 +1,6 @@
 # **South Wales MTB**
 
-*** Mock Up Images ***
+![Mock ups](assets/screenshots/dark-mock-ups-single-page.png)
 
 ## **Strategy - Description**
 
