@@ -239,13 +239,35 @@ The site is deployed via GitHub Pages. Steps to deploy are as follows:
 
 ## **Testing**
 
-All HTML and CSS was tested using the W3C validation service. Some minor HTML syntax errors were found and easily rectified. CSS passed with no errors.
+### W3C Validators
+
+All HTML and CSS was tested using the W3C validation service. Some minor HTML syntax errors were found and rectified. CSS passed with no errors.
 
 ![HTML-validation](assets/screenshots/index-validated.png) 
 ![HTML-validation](assets/screenshots/locations-validated.png) 
 ![HTML-validation](assets/screenshots/join-us-validated.png)
 
 ![CSS-validation](assets/screenshots/css-validated.png)
+
+### Google Lighthouse Results
+
+These results were obtained in an incognito window to avoid any Chrome extensions skewing results.
+
+#### Desktop
+
+![index-lighthouse](assets/screenshots/index-desktop-lighthouse-score.png)
+
+![locations-lighthouse](assets/screenshots/locations-desktop-lighthouse-score.png)
+
+![join-us-lighthouse](assets/screenshots/join-us-desktop-lighthouse-score.png)
+
+#### Mobile
+
+![index-mobile-lighthouse](assets/screenshots/index-mobile-lighthouse-score.png)
+
+![locations-mobile-lighthouse](assets/screenshots/locations-mobile-lighthouse-score.png)
+
+![locations-mobile-lighthouse](assets/screenshots/join-us-mobile-lighthouse-score.png)
 
 ## **Credits**
 
