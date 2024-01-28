@@ -216,6 +216,7 @@ A simple blog for detailing previous events involving the club such as club ride
 As the site grows it will become impractical to keep adding icons to the mobile nav bar. A collapsable and expandable nav bar will provide a much better user exerience.
 
 ## **Deployment**
+
 The site is deployed via GitHub Pages. Steps to deploy are as follows:
 
 1. Log in to GitHub and select `Milestone-Project-One` from the repo list
@@ -224,7 +225,17 @@ The site is deployed via GitHub Pages. Steps to deploy are as follows:
 4. Under `Build and Deployment`, in the `Source` drop-down list, select `Deploy from branch`.
 5. Still under `Build and Deployment`, in the `Branch` drop-down lists, select `Main` and `/(root)`
 6. Click `Save`
-7. 
+7. The project will be built and a `url` and `button` will appear at the top of the page. Use one of these to navigate to the deployed project.
+
+### **Run Locally**
+#### Clone from URL
+1. Log in to GitHub and select `Milestone-Project-One` from the repo list
+2. To the right side of the page fine the green `code` button and click to see the drop down menu.
+3. Under the `HTTP` tab, select the URL or click the copy button to the right of the URL to copy.
+4. Create a folder for the repo.
+5. In your chosen IDE change the working directory to the directory chosen for the repo.
+6. Open the git bash cli and type `git clone` followed by the copied URL
+7. Wait for the repo to be cloned
 
 ## **Testing**
 

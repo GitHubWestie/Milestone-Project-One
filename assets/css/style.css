@@ -141,6 +141,8 @@ nav > ul {
     color: #dbeeff;
     justify-self: self-end;
     line-height: 0.9;
+    font-family: 'Arial';
+    letter-spacing: -8px;
 }
 
 .hero > p {
