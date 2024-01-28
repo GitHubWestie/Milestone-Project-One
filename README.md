@@ -1,6 +1,6 @@
 # **South Wales MTB**
 
-![Mock ups](assets/screenshots/dark-mock-ups-single-page.png)
+![Mock ups](assets/screenshots/dark-mock-ups.png)
 
 ## **Strategy - Description**
 
@@ -132,21 +132,10 @@ A sign up screen where users can submit their email address to receive club upda
 ### **Mobile**
 ![Mobile](assets/Wireframes/Mobile.png)
 
-### **Features**
-
-### **Features left to be implemented**
-
-#### **Locations Info**
-Each location card will be a link to its own page for information relating to the area it concerns. This would include info like number of tracks, technicality, length, terrain type and an embedded map with pin drop to the location.
-
-#### **Blog**
-
-A simple blog for detailing previous events involving the club such as club rides, trips away, races etc. Useful for potential club members to see what the club gets up to and encourage them to get involved. 
-
-#### **Expandable Nav Menu**
-As the site grows it will become impractical to keep adding icons to the mobile nav bar. A collapsable and expandable nav bar will provide a much better user exerience.
 
 ## **Surface**
+
+### **Features**
 
 ### **Navbar**
 ![Mobile-navbar](assets/screenshots/mobile-nav-bar.png)
@@ -214,15 +203,38 @@ For simplicity the only element on this page (aside from fixed elements such as 
 
 At the bottom of each page is a consistent footer with links to social media and email. Should somebody wish to use these to find out more about the club or request more information, each link opens in a new tab so as to not permanently navigate the user away from the club website.
 
+### **Future Feature Implementations**
+
+#### **Locations Info**
+Each location card will be a link to its own page for information relating to the area it concerns. This would include info like number of tracks, technicality, length, terrain type and an embedded map with pin drop to the location.
+
+#### **Blog**
+
+A simple blog for detailing previous events involving the club such as club rides, trips away, races etc. Useful for potential club members to see what the club gets up to and encourage them to get involved. 
+
+#### **Expandable Nav Menu**
+As the site grows it will become impractical to keep adding icons to the mobile nav bar. A collapsable and expandable nav bar will provide a much better user exerience.
+
+## **Deployment**
+The site is deployed via GitHub Pages. Steps to deploy are as follows:
+
+1. Log in to GitHub and select `Milestone-Project-One` from the repo list
+2. Select `settings` from the top navigation bar
+3. From the menu on the left select `Pages`
+4. Under `Build and Deployment`, in the `Source` drop-down list, select `Deploy from branch`.
+5. Still under `Build and Deployment`, in the `Branch` drop-down lists, select `Main` and `/(root)`
+6. Click `Save`
+7. 
+
 ## **Testing**
 
 All HTML and CSS was tested using the W3C validation service. Some minor HTML syntax errors were found and easily rectified. CSS passed with no errors.
 
-![HTML-validation](assets/screenshots/index-validated.png) ![HTML-validation](assets/screenshots/locations-validated.png) ![HTML-validation](assets/screenshots/join-us-validated.png)
+![HTML-validation](assets/screenshots/index-validated.png) 
+![HTML-validation](assets/screenshots/locations-validated.png) 
+![HTML-validation](assets/screenshots/join-us-validated.png)
 
 ![CSS-validation](assets/screenshots/css-validated.png)
-
-## **Deployment**
 
 ## **Credits**
 
