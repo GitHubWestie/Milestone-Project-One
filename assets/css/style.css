@@ -260,7 +260,7 @@ nav > ul {
     color: #204B57;
 }
 
-.ready > h6 {
+.ready > p {
     grid-area: 1/2/2/3;
     font-size: 0.75rem;
     text-align: left;
