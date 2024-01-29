@@ -12,9 +12,7 @@ South Wales MTB is a club website that aims to help bring MTB riders from across
 
 * Provide info about the club, promote the club ethos and attract new members
 
-* Provide info about upcoming rides so members can meet up
-
-* Grow the community - One open ride per month
+* Grow the community
 
 * List a directory of current riding locations the club use
 
@@ -76,18 +74,6 @@ Simple but attractive page with large hero image. Welcoming, calm and friendly w
 ### **Locations**
 
 A list of riding locations used by the club, presented as cards. Each card gives a quick overview of difficulty and length with the ability to click through to a more detailed page about the area.
-
-#### Page Goals
-
-* Attract new members
-
-* Provide more detailed information than that found on the landing page about locations
-
-#### User Goals
-
-* Discover where the club ride most frquently
-
-* Ascertain what skill/fitness level will be required for certain loctions through trail information e.g Trail grading, course length etc.
 
 #### Page Goals
 
@@ -189,7 +175,7 @@ The home page features some core reasons why a user may want to join the club. T
 The locations page features some of the most popular and often used areas by the club. The images tell a story about the type of riding that can be expected at each location and also show a variety of riding styles such as bike park features, smooth flowing descents and big jumps. These location cards quickly communicate that there is variety among the group and therefore, something that all riders of all abilities can enjoy.
 
 #### Ready? Banner
-![Ready?](assets/screenshots/ready-join.png)
+![Ready?](assets/screenshots/ready-join.png) ![Less-yappin](assets/screenshots/less-yappin-join.png)
 
 For convenience a join button is positioned at the bottom of each page. If a user reaches the end of any page content and decides they have learnt enough and want to join there is no need for them to go looking for a way to join. This button is accompanied by a catchphrase that is recognisable to many mountain bikers and fits in with the lighthearted ethos of the club.
 
@@ -204,6 +190,9 @@ For simplicity the only element on this page (aside from fixed elements such as 
 At the bottom of each page is a consistent footer with links to social media and email. Should somebody wish to use these to find out more about the club or request more information, each link opens in a new tab so as to not permanently navigate the user away from the club website.
 
 ### **Future Feature Implementations**
+
+#### **Ride Calendar** 
+Provide a calendar with info about upcoming rides so members can plan meet ups easier and better organise rides depending on group size.
 
 #### **Locations Info**
 Each location card will be a link to its own page for information relating to the area it concerns. This would include info like number of tracks, technicality, length, terrain type and an embedded map with pin drop to the location.
@@ -228,7 +217,7 @@ The site is deployed via GitHub Pages. Steps to deploy are as follows:
 7. The project will be built and a `url` and `button` will appear at the top of the page. Use one of these to navigate to the deployed project.
 
 ### **Run Locally**
-#### Clone from URL
+### Clone from URL
 1. Log in to GitHub and select `Milestone-Project-One` from the repo list
 2. To the right side of the page fine the green `code` button and click to see the drop down menu.
 3. Under the `HTTP` tab, select the URL or click the copy button to the right of the URL to copy.
@@ -271,16 +260,59 @@ These results were obtained in an incognito window to avoid any Chrome extension
 
 ## **Credits**
 
-### **Media**
+### **Images**
 
-* Home page hero image by [Marita Kavelashvili](https://unsplash.com/@maritaextrabold)
+* **Logo** image by Mert Gör on [Open Clipart](https://openclipart.org/)
 
-    Downloaded from [Unsplash](https://unsplash.com/photos/aerial-photo-of-green-trees-ugnrXk1129g)
+    Modified by me in [GIMP](https://www.gimp.org/)
 
-* Discover image by [Red Zeppelin](https://unsplash.com/@redzeppelin)
-
-* Coaching image used with kind permission of [Bike Park Wales](https://www.bikeparkwales.com/)
-
-* Travel image by [Nick Rickert](https://unsplash.com/@nick_rickert)
+* **Home page hero** image by [Marita Kavelashvili](https://unsplash.com/@maritaextrabold)
 
     Downloaded from [Unsplash](https://unsplash.com/photos/aerial-photo-of-green-trees-ugnrXk1129g)
+
+* **Connect** image by [Clement Delhaye](https://unsplash.com/@clementdelhaye)
+
+    Downloaded from [Unsplash](https://unsplash.com/photos/man-in-red-helmet-riding-on-bicycle-during-daytime-NJQv0W6DHaM)
+
+* **Discover** image by [Mauricio Gutiérrez](https://unsplash.com/@mauriciogutierreztello)
+
+    Downloaded from [Unsplash](https://unsplash.com/photos/man-riding-bike-on-hill-under-white-sky-w3VMH-09ePw)
+
+* **Learn** image used with kind permission of [Bike Park Wales](https://www.bikeparkwales.com/)
+
+* **Travel** image by [Nick Rickert](https://unsplash.com/@nick_rickert)
+
+    Downloaded from [Unsplash](https://unsplash.com/photos/red-chevrolet-crew-cab-pickup-truck-parked-beside-black-bicycle-F6lzAY7Nd28)
+
+* **Locations hero** image by [Tim Foster](https://unsplash.com/@timberfoster)
+
+    Downloaded from [Unsplash](https://unsplash.com/photos/brown-dirt-road-in-the-middle-of-forest-during-daytime-e0jQbe0tw3I)
+
+* **BPW** image by [Luca Beani](https://unsplash.com/@pigiama)
+
+    Downoaded from [Unsplash](https://unsplash.com/photos/man-in-black-jacket-riding-on-black-motorcycle-in-forest-during-daytime-N0XoACbFYok)
+
+*  **Cwmcarn** image by [Graziano De Maio](https://unsplash.com/@grazianodemaio)
+
+    Downloaded from [Unsplash](https://unsplash.com/photos/man-riding-bicycle-on-river-during-daytime-EhwpPCZIzf4)
+
+*  **Afan** image by [Tim Foster](https://unsplash.com/@timberfoster)
+
+    Downloaded from [Unsplash](https://unsplash.com/photos/man-riding-bike-qrIy8dBzCVU)
+
+*  **Risca** image by [Tadeja Pavšič](https://unsplash.com/@tadejapavsic)
+
+    Downloaded from [Unsplash](https://unsplash.com/photos/a-person-riding-a-bike-on-a-dirt-trail-in-the-woods-7Pn9ySITNWg)
+
+*  **Wyllie** image by [Carlo von Reyher](https://unsplash.com/@c_v_r)
+
+    Downloaded from [Unsplash](https://unsplash.com/photos/man-in-black-jacket-riding-bicycle-on-forest-during-daytime-x-NMfz8As04)
+
+*  **Barry Sidings** image by [Adrien Vajas](https://unsplash.com/@adrien_vj)
+
+    Downloaded from [Unsplash](https://unsplash.com/photos/man-in-orange-jacket-riding-on-black-mountain-bike-o3_3a_EyNnY)
+
+### **Code**
+
+*   Code borrowed from CSS Tricks and modified to stop autofill changing the background colour of form inputs. 
+

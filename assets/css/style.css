@@ -60,9 +60,7 @@ nav {
 .logo-text {
     font-size: 3rem;
     color: #dbeeff;
-    /* padding-left: 7rem; */
     line-height: 0.9;
-    /* padding-top: 0.7rem; */
 }
 
 .desktop-links {
@@ -486,7 +484,6 @@ footer > a {
     .nav-logo {
         position: static;
         float: left;
-        /* padding-left: 0.5rem; */
         width: 80px;
         height: auto;
     }
