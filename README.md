@@ -4,7 +4,7 @@
 
 ## **Strategy - Description**
 
-South Wales MTB is a club website that aims to help bring MTB riders from across the valleys together, keeping them motivated to ride their bikes and enjoy nature. It aims to grow the local mtb community, providing a safe way for mountain bikers to meet new people and get involved with regular club rides. 
+South Wales MTB is a club website that aims to help bring MTB riders from across the valleys together, keeping them motivated to ride their bikes and enjoy nature. It aims to grow the local MTB community, providing a safe way for mountain bikers to meet new people and get involved with regular club rides. 
 
 **The site is live and can be found [here](https://githubwestie.github.io/Milestone-Project-One/)**
 
@@ -110,13 +110,13 @@ A sign up screen where users can submit their email address to receive club upda
 ### **Skeleton**
 
 ### Desktop
-![Desktop](assets/Wireframes/Desktop.png)
+![Desktop](assets/wireframes/desktop.png)
 
 ### Tablet
-![Tablet](assets/Wireframes/Tablet.png)
+![Tablet](assets/wireframes/tablet.png)
 
 ### Mobile
-![Mobile](assets/Wireframes/Mobile.png)
+![Mobile](assets/wireframes/mobile.png)
 
 ## **Surface**
 
@@ -130,11 +130,11 @@ Although not the typical red Welsh dragon, the image of a dragon was selected as
 ### Navbar
 ![Mobile-navbar](assets/screenshots/mobile-nav-bar.png)
 
-![Navbar](assets/screenshots/Nav-bar.png)
+![Navbar](assets/screenshots/nav-bar.png)
 
 Each page is headed up by the navbar for simple and intuitive navigation. Small screens up to 768px utilise the smaller mobile menu. This menu eliminates cramping in the nav bar by reducing the logo down to the club icon (which floats slightly outside of the navbar to maintain a legible size) and replaces the text links with easily recognisable icons.
 
-Larger screens use the full size navbar with full size logo, text links and a CTA styled like a button for the 'join us' link. The logo is also a link to the homepage and all links feature a subtle hover state to let the user know they are an interactive feature.
+Larger screens use the full size navbar and logo, text links and a CTA styled like a button for the 'join us' link. The logo is also a link to the homepage and all links feature a subtle hover state to let the user know they are an interactive feature.
 
 Both versions of the navbar are sticky to keep navigation simple, convenient and accessible at all times.
 
@@ -145,7 +145,7 @@ Each page features a hero image chosen to reflect the character of riding in the
 #### Homepage Hero
 ![Homepage-hero](assets/screenshots/index-hero.png)
 
-The homepage hero image is chosen as it is such a typical and iconic sight in the valleys of South Wales. It has a calming yet alluring tone to a mountain biker as they know what hides amongst the trees. This was also a careful selection in terms of being identifiable with mountain biking but not scaring off potential club members with images of big jumps, drops or other features which may make them feel the club is exclusive to people of a high skill level.
+The homepage hero image is chosen as it is such a typical and iconic sight in the valleys of South Wales. It has a calming yet alluring tone to a mountain biker as they know what hides amongst the trees. This was also a careful selection in terms of being identifiable with mountain biking but not scaring off potential club members with images of big jumps, drops or other features that may make them feel the club is exclusive to people of a high skill level.
 
 The strong and small text to the side of the image is inspired by print media and is a familiar sight in MTB related publications.
 
@@ -154,18 +154,18 @@ This image also drove the choices on colour palette for the site.
 #### Locations Hero
 ![Locations-hero](assets/screenshots/locations-hero.png)
 
-With the locations hero I wanted to quickly convey an idea of what a typical ride with the club might look like whilst again not picking anything too scary so as to not be offputting to the more novice rider. In addition it gives a feel of being a small part of a much larger track and draws the user in to thinking about how the rest of the track might be, imaging themselves riding it and the sense of freedom that comes with that. The warmth of the image helps to make that visualisation positive.
+With the locations hero, I wanted to quickly convey an idea of what a typical ride with the club might look like whilst again not picking anything too scary so as to not be offputting to the more novice rider. In addition, it gives a feel of being a small part of a much larger track and draws the user in to thinking about how the rest of the track might be, imagining themselves riding it and the sense of freedom that comes with that. The warmth of the image helps to make that visualisation positive.
 
 #### Join Us Hero
 ![Join-us-hero](assets/screenshots/join-us-page.png)
 
-As this image is the last chance to catch a potential new member I wanted this one to represent the fun of riding a bike. Wheelies are one of the most fun tricks in a mountain bikers bag and often one of the first learnt. As with the other hero images this one is unlikely to be off putting to those new to the sport but still illustrates the club ethos of riding for fun and not being too serious. 
+As this image is the last chance to catch a potential new member I wanted this one to represent the fun of riding a bike. Wheelies are one of the most fun tricks in a mountain bikers bag and often one of the first learnt. As with the other hero images, this one is unlikely to be off-putting to those new to the sport but still illustrates the club ethos of riding for fun and not being too serious. 
 
 ### Page Introductions
 ![homepage-intro](assets/screenshots/index-intro.png)
 ![locations-intro](assets/screenshots/locations-intro.png)
 
-Each page has a brief introduction to provide context to the page and some quick information. It also aims to answer some questions that new users would likely have when they first come to the site. These were kept short to not overload users with text heavy content.
+Each page has a brief introduction to provide context to the page and some quick information. It also aims to answer some questions that new users would likely have when they first come to the site. These were kept short to not overload users with text-heavy content.
 
 ### Main Content
 #### Home Page
@@ -181,12 +181,12 @@ The locations page features some of the most popular and often used areas by the
 #### Ready? Banner
 ![Ready?](assets/screenshots/ready-join.png) ![Less-yappin](assets/screenshots/less-yappin-join.png)
 
-For convenience a join button is positioned at the bottom of each page. If a user reaches the end of any page content and decides they have learnt enough and want to join there is no need for them to go looking for a way to join. This button is accompanied by a catchphrase that is recognisable to many mountain bikers and fits in with the lighthearted ethos of the club.
+For convenience, a join button is positioned at the bottom of each page. If a user reaches the end of any page content and decides they have learnt enough and want to join there is no need for them to go looking for a way to join. This button is accompanied by a catchphrase that is recognisable to many mountain bikers and fits in with the lighthearted ethos of the club.
 
 ### Join Us!
 ![Join-us!](assets/screenshots/join-form.png) ![Join-us!](assets/screenshots/join-us-mobile.png)
 
-For simplicity the only element on this page (aside from fixed elements such as nav and footer) is the sign up form. Here the user is able to submit their name and email to be added to the club and receive important information such as member only rides etc. As the form floats in the center of the page but I didnt want the image behind to be obscured the opacity is reduced but a blur added so that on smaller screens when the rider is behind the form the image isnt distracting or making the form difficult to read.
+For simplicity, the only element on this page (aside from fixed elements such as nav and footer) is the sign up form. Here the user is able to submit their name and email to be added to the club and receive important information such as member only rides etc. As the form floats in the center of the page but I didn't want the image behind to be obscured the opacity is reduced and a blur added so that on smaller screens when the rider is behind the form the image isn't distracting or making the form difficult to read.
 
 ### Footer
 ![Footer](assets/screenshots/footer.png)
@@ -302,7 +302,7 @@ These results were obtained in an incognito window to avoid any Chrome extension
 
 ![locations-mobile-lighthouse](assets/screenshots/join-us-mobile-lighthouse-score.png)
 
-During testing I found that Lighthouse had issue with image sizes not being explicitly set on the HTML elements. Normally I would look to keep things like sizing exclusively in CSS but this was impacting my score based on the CLS rating and so I took the decision to use the explicit sizes as suggested by Lighthouse.
+During testing, I found that Lighthouse had an issue with image sizes not being explicitly set on the HTML elements. Normally I would look to keep things like sizing exclusively in CSS but as this was impacting my Lighthouse score based on the CLS rating I decided to use the explicit sizes.
 
 ![explicit-lighthouse-image-issue](/assets/screenshots/lighthouse-image-explicit-width.png)
 ---
@@ -379,7 +379,7 @@ During testing I found that Lighthouse had issue with image sizes not being expl
 
 * Form styling code borrowed from [CodeHal](https://www.youtube.com/@codehal) YouTube [video](https://www.youtube.com/watch?v=hlwlM4a5rxg&ab_channel=Codehal)
 
-* Font [Google Fonts](https://fonts.google.com/)
+* Font by [Google Fonts](https://fonts.google.com/)
 
 * Icons from [Boxicons](https://boxicons.com/)
 
