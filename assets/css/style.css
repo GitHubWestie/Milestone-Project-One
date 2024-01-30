@@ -183,7 +183,6 @@ nav > ul {
     grid-area: 2/2/3/3;
 }
 
-
 /* Reasons */
 .reason-wrapper {
     display: flex;
@@ -280,8 +279,6 @@ nav > ul {
     margin: 2rem 0 0;
 }
 
-
-
 /* Locations */
 .location-card-wrapper {
     display: grid;
@@ -320,7 +317,6 @@ nav > ul {
     width: 100%;
     border-radius: 20px 20px 0 0;
 }
-
 
 /* Join Us */
 .form-container {
@@ -440,7 +436,6 @@ footer {
 footer > a {
     padding: 1rem 0;
 }
-
 
 /* Media Queries */
 @media screen and (max-width:425px) {

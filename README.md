@@ -195,7 +195,7 @@ At the bottom of each page is a consistent footer with links to social media and
 Provide a calendar with info about upcoming rides so members can plan meet ups easier and better organise rides depending on group size.
 
 #### **Locations Info**
-Each location card will be a link to its own page for information relating to the area it concerns. This would include info like number of tracks, technicality, length, terrain type and an embedded map with pin drop to the location.
+Each location card will be a link to its own page for information relating to the area it concerns. This would include info like number of tracks, technicality, length, terrain type and embedded content such as POV video of tracks and maps with a pin drop to the location.
 
 #### **Blog**
 
@@ -217,7 +217,8 @@ The site is deployed via GitHub Pages. Steps to deploy are as follows:
 7. The project will be built and a `url` and `button` will appear at the top of the page. Use one of these to navigate to the deployed project.
 
 ### **Run Locally**
-### Clone from URL
+
+#### Clone from URL
 1. Log in to GitHub and select `Milestone-Project-One` from the repo list
 2. To the right side of the page fine the green `code` button and click to see the drop down menu.
 3. Under the `HTTP` tab, select the URL or click the copy button to the right of the URL to copy.
@@ -257,6 +258,16 @@ These results were obtained in an incognito window to avoid any Chrome extension
 ![locations-mobile-lighthouse](assets/screenshots/locations-mobile-lighthouse-score.png)
 
 ![locations-mobile-lighthouse](assets/screenshots/join-us-mobile-lighthouse-score.png)
+
+### **Device Testing**
+
+Throughout the development process Google Chrome Dev Tools was used extensively to monitor display on various device screen sizes. Once deployed real world testing was carried out on a range of devices covering mobile, tablet and desktop resolutions across various browsers.
+
+![dev-tools](assets/screenshots/dev-tools.png)
+
+![mobile-test](/assets/screenshots/mobile-test-screen.png)
+
+
 
 ## **Credits**
 
