@@ -18,11 +18,13 @@ South Wales MTB is a club website that aims to help bring MTB riders from across
 
 * Provide a means to sign up to be kept in the loop about club activity. Initially this will be via email.
 
-## **User Experience - Scope**
+## **User Experience**
+
+### **Scope**
 
 **As a first time user I want:**
 
-* To see if this club is for me - Club ethos, where they ride, skill level required, equipment required
+* To see if this club is for me - Club ethos, where they ride, skill level required
 
 * To know when the club rides
 
@@ -38,9 +40,9 @@ South Wales MTB is a club website that aims to help bring MTB riders from across
 
 * Contact the club
 
-## **Structure**
+### **Structure**
 
-### **All Pages**
+### All Pages
 
 All pages will provide:
 
@@ -48,7 +50,7 @@ All pages will provide:
 
 * A footer with contact links including links to email and social media platforms
 
-### **Home / Landing Page**
+### Home / Landing Page
 Simple but attractive page with large hero image. Welcoming, calm and friendly with quick highlights of the core reasons to join and ride with the club.
 
 #### Page Goals
@@ -69,7 +71,7 @@ Simple but attractive page with large hero image. Welcoming, calm and friendly w
 
 * How do I get involved?
 
-### **Locations**
+### Locations
 
 A list of riding locations used by the club, presented as cards. Each card gives a brief description of area and type of riding that can b expected.
 
@@ -89,7 +91,7 @@ A list of riding locations used by the club, presented as cards. Each card gives
 
 * See what rides the members get up to outside of South Wales
 
-### **Sign up**
+### Sign up
 
 A sign up screen where users can submit their email address to receive club updates and event information. In future will be used as a login to access account and account based features such as a club shop.
 
@@ -105,28 +107,27 @@ A sign up screen where users can submit their email address to receive club upda
 
 * Keep in touch with the club and be kept up to date with club activity
 
-## **Skeleton**
+### **Skeleton**
 
-### **Desktop**
+### Desktop
 ![Desktop](assets/Wireframes/Desktop.png)
 
-### **Tablet**
+### Tablet
 ![Tablet](assets/Wireframes/Tablet.png)
 
-### **Mobile**
+### Mobile
 ![Mobile](assets/Wireframes/Mobile.png)
-
 
 ## **Surface**
 
-### **Features**
+### Features
 
-### **Logo**
+### Logo
 ![Logo](/assets/images/color-draig.webp)
 
 Although not the typical red Welsh dragon, the image of a dragon was selected as it is instantly recognisable to the Welsh or those familiar with Wales. The Welsh dragon is perceived to be a benevolent creature which aligns with the ethos of the club. 
 
-### **Navbar**
+### Navbar
 ![Mobile-navbar](assets/screenshots/mobile-nav-bar.png)
 
 ![Navbar](assets/screenshots/Nav-bar.png)
@@ -137,7 +138,7 @@ Larger screens use the full size navbar with full size logo, text links and a CT
 
 Both versions of the navbar are sticky to keep navigation simple, convenient and accessible at all times.
 
-### **Hero Images**
+### Hero Images
 
 Each page features a hero image chosen to reflect the character of riding in the valleys of South Wales, elicit an emotional response and create a quick connection with users.
 
@@ -160,13 +161,13 @@ With the locations hero I wanted to quickly convey an idea of what a typical rid
 
 As this image is the last chance to catch a potential new member I wanted this one to represent the fun of riding a bike. Wheelies are one of the most fun tricks in a mountain bikers bag and often one of the first learnt. As with the other hero images this one is unlikely to be off putting to those new to the sport but still illustrates the club ethos of riding for fun and not being too serious. 
 
-### **Page Introductions**
+### Page Introductions
 ![homepage-intro](assets/screenshots/index-intro.png)
 ![locations-intro](assets/screenshots/locations-intro.png)
 
 Each page has a brief introduction to provide context to the page and some quick information. It also aims to answer some questions that new users would likely have when they first come to the site. These were kept short to not overload users with text heavy content.
 
-### **Main Content**
+### Main Content
 #### Home Page
 ![reasons](assets/screenshots/reasons-section.png)
 
@@ -187,26 +188,26 @@ For convenience a join button is positioned at the bottom of each page. If a use
 
 For simplicity the only element on this page (aside from fixed elements such as nav and footer) is the sign up form. Here the user is able to submit their name and email to be added to the club and receive important information such as member only rides etc. As the form floats in the center of the page but I didnt want the image behind to be obscured the opacity is reduced but a blur added so that on smaller screens when the rider is behind the form the image isnt distracting or making the form difficult to read.
 
-### **Footer**
+### Footer
 ![Footer](assets/screenshots/footer.png)
 
 At the bottom of each page is a consistent footer with links to social media and email. Should somebody wish to use these to find out more about the club or request more information, each link opens in a new tab so as to not permanently navigate the user away from the club website.
 
 ### **Future Feature Implementations**
 
-#### **Login**
+#### Login
 Login feature which will grant access to member restricted areas of the site such as a shop or members only calendar events.
 
-#### **Shop**
+#### Shop
 A shop where people can buy club related merch to support the club and help fund club activity such as big trips away.
 
-#### **Ride Calendar** 
+#### Ride Calendar 
 Provide a calendar with info about upcoming rides so members can plan meet ups easier and better organise rides depending on group size.
 
-#### **Locations Info**
+#### Locations Info
 Each location card will be a link to its own page for information relating to the area it concerns. This would include info like number of tracks, technicality, length, terrain type and embedded content such as POV video of tracks and maps with a pin drop to the location.
 
-#### **Blog**
+#### Blog
 
 A simple blog for detailing previous events involving the club such as club rides, trips away, races etc. Useful for potential club members to see what the club gets up to and encourage them to get involved. 
 
@@ -237,6 +238,22 @@ The site is deployed via GitHub Pages. Steps to deploy are as follows:
 7. Wait for the repo to be cloned
 
 ## **Testing**
+
+### UX - Scope Testing
+
+| Expected | Actual Result |
+|----------|---------------|
+| **As a first time user I want:** |
+| To easily navigate and fine information | A navbar remains permanently at the top of the window for convenience. Information is clearly laid out and easy find |
+| To see if this club is for me - Club ethos, where they ride, skill level required | On landing on the site the user is presented with iconic images recognisable to people familiar with the welsh valleys. As this club is for local riders this is fitting. The first section of the page is intro text quickly establishing that the club is for everyone and all are welcome |
+|To know when the club rides | Users are able to join up to the club using the join us form, after which they will be sent communication regarding club ride dates, times and locations. Additionally users can use the social media links at the bottom of each page to connect with the club and get ride info | 
+| To sign up | Users can sign up using the form provided on the join us page |
+| To contact the club | Users can contact the club using the social media links at the bottom of each page or using the mail link at the bottom of each page |
+| To know where the group rides? | Users can access the locations page for a list of spots regularly visited by the club and join up for access to more secret spots | 
+| **As a returning user I want** |
+| To know when we are riding | Returning users are able to use the social media links to find up to date ride information on the clubs social media platforms or receive club emails after joining up |
+| To join up | Users can sign up using the form provided on the join us page |
+| To contact the club | Users can contact the club using the social media links at the bottom of each page or using the mail link at the bottom of each page |
 
 ### W3C Validators
 
@@ -272,13 +289,17 @@ These results were obtained in an incognito window to avoid any Chrome extension
 
 ### **Device Testing**
 
-Throughout the development process Google Chrome Dev Tools was used extensively to monitor display on various device screen sizes. Once deployed real world testing was carried out on a range of devices covering mobile, tablet and desktop resolutions across various browsers.
+Throughout the development process Google Chrome Dev Tools was used extensively to check display on various device screen sizes. Once deployed real world testing was carried out on a range of devices covering mobile, tablet and desktop resolutions across various browsers.
 
 ![dev-tools](assets/screenshots/dev-tools.png)
 
 ![mobile-test](/assets/screenshots/mobile-test-screen.png)
 
+### **Functionality Testing**
 
+All features and functions were manually tested across a range of devices, screen sizes and browsers. For mobile a mixture of browser native to the OS were used. For desktop four browsers were selected based on popularity among users: Google Chrome, Firefox, Edge and Safari.
+
+![Functionality Results](/assets/screenshots/excel-testsheet.png)
 
 ## **Credits**
 

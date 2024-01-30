@@ -495,3 +495,9 @@ footer > a {
         display: none;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .hero {
+        height: 100vh;
+    }
+}
