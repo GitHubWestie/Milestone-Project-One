@@ -34,9 +34,7 @@ South Wales MTB is a club website that aims to help bring MTB riders from across
 
 * To know when we are riding
 
-* Sign up or login and access my account
-
-* Use the shop
+* Sign up
 
 * Contact the club
 
@@ -73,7 +71,7 @@ Simple but attractive page with large hero image. Welcoming, calm and friendly w
 
 ### **Locations**
 
-A list of riding locations used by the club, presented as cards. Each card gives a quick overview of difficulty and length with the ability to click through to a more detailed page about the area.
+A list of riding locations used by the club, presented as cards. Each card gives a brief description of area and type of riding that can b expected.
 
 #### Page Goals
 
@@ -93,7 +91,7 @@ A list of riding locations used by the club, presented as cards. Each card gives
 
 ### **Sign up**
 
-A sign up screen where users can submit their email address to receive club updates and event information. In future will be used as a login to access account and account based features.
+A sign up screen where users can submit their email address to receive club updates and event information. In future will be used as a login to access account and account based features such as a club shop.
 
 #### Page Goals
 
@@ -190,6 +188,12 @@ For simplicity the only element on this page (aside from fixed elements such as 
 At the bottom of each page is a consistent footer with links to social media and email. Should somebody wish to use these to find out more about the club or request more information, each link opens in a new tab so as to not permanently navigate the user away from the club website.
 
 ### **Future Feature Implementations**
+
+#### **Login**
+Login feature which will grant access to member restricted areas of the site such as a shop or members only calendar events.
+
+#### **Shop**
+A shop where people can buy club related merch to support the club and help fund club activity such as big trips away.
 
 #### **Ride Calendar** 
 Provide a calendar with info about upcoming rides so members can plan meet ups easier and better organise rides depending on group size.
