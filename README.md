@@ -110,7 +110,7 @@ A sign up screen where users can submit their email address to receive club upda
 ### **Skeleton**
 
 ### Desktop
-![Desktop](/assets/wireframes/desktop.png)
+![Desktop](/assets/wireframes/desktop.png)![desktop](assets/wireframes/desktop.png)
 
 ### Tablet
 ![Tablet](/assets/wireframes/tablet.png)
