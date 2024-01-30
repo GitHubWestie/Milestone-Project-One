@@ -255,6 +255,23 @@ The site is deployed via GitHub Pages. Steps to deploy are as follows:
 | To join up | Users can sign up using the form provided on the join us page |
 | To contact the club | Users can contact the club using the social media links at the bottom of each page or using the mail link at the bottom of each page |
 
+---
+
+### **Device Testing**
+
+Throughout the development process Google Chrome Dev Tools was used extensively to check display on various device screen sizes. Once deployed real world testing was carried out on a range of devices covering mobile, tablet and desktop resolutions across various browsers.
+
+![dev-tools](assets/screenshots/dev-tools.png)
+
+![mobile-test](/assets/screenshots/mobile-test-screen.png)
+
+---
+
+### **Functionality Testing**
+
+All features and functions were manually tested across a range of devices, screen sizes and browsers. For mobile a mixture of browser native to the OS were used. For desktop four browsers were selected based on popularity among users: Google Chrome, Firefox, Edge and Safari.
+
+![Functionality Results](/assets/screenshots/excel-testsheet.png)
 ### W3C Validators
 
 All HTML and CSS was tested using the W3C validation service. Some minor HTML syntax errors were found and rectified. CSS passed with no errors.
@@ -285,29 +302,24 @@ These results were obtained in an incognito window to avoid any Chrome extension
 
 ![locations-mobile-lighthouse](assets/screenshots/join-us-mobile-lighthouse-score.png)
 
+During testing I found that Lighthouse had issue with image sizes not being explicitly set on the HTML elements. Normally I would look to keep things like sizing exclusively in CSS but this was impacting my score based on the CLS rating and so I took the decision to use the explicit sizes as suggested by Lighthouse.
+
+![explicit-lighthouse-image-issue](/assets/screenshots/lighthouse-image-explicit-width.png)
 ---
-
-### **Device Testing**
-
-Throughout the development process Google Chrome Dev Tools was used extensively to check display on various device screen sizes. Once deployed real world testing was carried out on a range of devices covering mobile, tablet and desktop resolutions across various browsers.
-
-![dev-tools](assets/screenshots/dev-tools.png)
-
-![mobile-test](/assets/screenshots/mobile-test-screen.png)
-
-### **Functionality Testing**
-
-All features and functions were manually tested across a range of devices, screen sizes and browsers. For mobile a mixture of browser native to the OS were used. For desktop four browsers were selected based on popularity among users: Google Chrome, Firefox, Edge and Safari.
-
-![Functionality Results](/assets/screenshots/excel-testsheet.png)
 
 ## **Credits**
 
 ### **Tools**
 
-* [mycolorspace](https://mycolor.space/?hex=%23000000&sub=1) to help with color choice
+* Colour pallette generator by [mycolorspace](https://mycolor.space/?hex=%23000000&sub=1) 
 
 * Responsive design checker by [media Genesis](https://responsivedesignchecker.com/#home)
+
+* Google [Dev Tools](https://developer.chrome.com/docs/devtools)
+
+* HTML and CSS written using Microsoft [Visual Studio Code](https://code.visualstudio.com/)
+
+* Wireframing tool by [Balsamiq](https://balsamiq.com/)
 
 ### **Images**
 
@@ -378,3 +390,9 @@ All features and functions were manually tested across a range of devices, scree
 * [MDN](https://developer.mozilla.org/en-US/)
 
 * [CSS Tricks](https://css-tricks.com/)
+
+* [Codecademy](https://www.codecademy.com/)
+
+## Big Thanks
+
+* Thanks to Ronan for his support, advice, resources and getting up super early for meetings
