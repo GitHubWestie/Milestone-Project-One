@@ -121,6 +121,11 @@ A sign up screen where users can submit their email address to receive club upda
 
 ### **Features**
 
+### **Logo**
+![Logo](/assets/images/color-draig.webp)
+
+Although not the typical red Welsh dragon, the image of a dragon was selected as it is instantly recognisable to the Welsh or those familiar with Wales. The Welsh dragon is perceived to be a benevolent creature which aligns with the ethos of the club. 
+
 ### **Navbar**
 ![Mobile-navbar](assets/screenshots/mobile-nav-bar.png)
 
@@ -263,6 +268,8 @@ These results were obtained in an incognito window to avoid any Chrome extension
 
 ![locations-mobile-lighthouse](assets/screenshots/join-us-mobile-lighthouse-score.png)
 
+---
+
 ### **Device Testing**
 
 Throughout the development process Google Chrome Dev Tools was used extensively to monitor display on various device screen sizes. Once deployed real world testing was carried out on a range of devices covering mobile, tablet and desktop resolutions across various browsers.
@@ -274,6 +281,12 @@ Throughout the development process Google Chrome Dev Tools was used extensively 
 
 
 ## **Credits**
+
+### **Tools**
+
+* [mycolorspace](https://mycolor.space/?hex=%23000000&sub=1) to help with color choice
+
+* Responsive design checker by [media Genesis](https://responsivedesignchecker.com/#home)
 
 ### **Images**
 
@@ -307,27 +320,40 @@ Throughout the development process Google Chrome Dev Tools was used extensively 
 
     Downoaded from [Unsplash](https://unsplash.com/photos/man-in-black-jacket-riding-on-black-motorcycle-in-forest-during-daytime-N0XoACbFYok)
 
-*  **Cwmcarn** image by [Graziano De Maio](https://unsplash.com/@grazianodemaio)
+* **Cwmcarn** image by [Graziano De Maio](https://unsplash.com/@grazianodemaio)
 
     Downloaded from [Unsplash](https://unsplash.com/photos/man-riding-bicycle-on-river-during-daytime-EhwpPCZIzf4)
 
-*  **Afan** image by [Tim Foster](https://unsplash.com/@timberfoster)
+* **Afan** image by [Tim Foster](https://unsplash.com/@timberfoster)
 
     Downloaded from [Unsplash](https://unsplash.com/photos/man-riding-bike-qrIy8dBzCVU)
 
-*  **Risca** image by [Tadeja Pavšič](https://unsplash.com/@tadejapavsic)
+* **Risca** image by [Tadeja Pavšič](https://unsplash.com/@tadejapavsic)
 
     Downloaded from [Unsplash](https://unsplash.com/photos/a-person-riding-a-bike-on-a-dirt-trail-in-the-woods-7Pn9ySITNWg)
 
-*  **Wyllie** image by [Carlo von Reyher](https://unsplash.com/@c_v_r)
+* **Wyllie** image by [Carlo von Reyher](https://unsplash.com/@c_v_r)
 
     Downloaded from [Unsplash](https://unsplash.com/photos/man-in-black-jacket-riding-bicycle-on-forest-during-daytime-x-NMfz8As04)
 
-*  **Barry Sidings** image by [Adrien Vajas](https://unsplash.com/@adrien_vj)
+* **Barry Sidings** image by [Adrien Vajas](https://unsplash.com/@adrien_vj)
 
     Downloaded from [Unsplash](https://unsplash.com/photos/man-in-orange-jacket-riding-on-black-mountain-bike-o3_3a_EyNnY)
 
 ### **Code**
 
-*   Code borrowed from CSS Tricks and modified to stop autofill changing the background colour of form inputs. 
+* Code borrowed from [CSS Tricks]() and modified to stop autofill changing the background colour of form inputs. 
 
+* Form styling code borrowed from [CodeHal](https://www.youtube.com/@codehal) YouTube [video](https://www.youtube.com/watch?v=hlwlM4a5rxg&ab_channel=Codehal)
+
+* Font [Google Fonts](https://fonts.google.com/)
+
+* Icons from [Boxicons](https://boxicons.com/)
+
+### **References**
+
+* [W3Schools](https://www.w3schools.com/)
+
+* [MDN](https://developer.mozilla.org/en-US/)
+
+* [CSS Tricks](https://css-tricks.com/)
